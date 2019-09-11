@@ -7,8 +7,7 @@ distribution's packagers to release a v8.00 package.
 
 ---
 
-[![Build Status](https://api.travis-ci.org/dlenski/openconnect.png)](//travis-ci.org/dlenski/openconnect)
-
+[![Build Status](https://travis-ci.com/Nat-As/openconnect.svg?branch=master)](https://travis-ci.com/Nat-As/openconnect)
 # Table of Contents
 
    * [What is this?](#what-is-this)
