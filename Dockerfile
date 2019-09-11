@@ -19,8 +19,6 @@ ADD . .
 RUN ./autogen.sh
 RUN ./configure
 RUN make
-RUN clear
-RUN echo Connecting to the Florida Polytechnic University VPN...
 RUN ./openconnect --protocol=gp vpn.floridapoly.edu
 #FROM debian:9-slim
 #WORKDIR /openconnect
