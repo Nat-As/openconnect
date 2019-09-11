@@ -33,7 +33,6 @@ jobs:
 
     # Build a dockerfile
     - stage: docker build
-      sudo: true
       services:
         - docker
       before_script:
