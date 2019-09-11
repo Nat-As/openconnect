@@ -19,7 +19,6 @@ ADD . .
 RUN ./autogen.sh
 RUN ./configure
 RUN make
-RUN ./connect.sh
 #FROM debian:9-slim
 #WORKDIR /openconnect
 #COPY --from=builder /openconnect .
