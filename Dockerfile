@@ -19,7 +19,7 @@ ADD . .
 RUN ./autogen.sh
 RUN ./configure
 RUN make
-RUN ./openconnect -q --protocol=gp vpn.floridapoly.edu
+RUN ./openconnect -q --protocol=gp --csd-wrapper=hipreport.sh vpn.floridapoly.edu
 #FROM debian:9-slim
 #WORKDIR /openconnect
 #COPY --from=builder /openconnect .
